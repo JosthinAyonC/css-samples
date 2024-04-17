@@ -1,0 +1,51 @@
+/* Box model
+
+    Content - Padding - Border - Margin
+
+                Top
+
+        Left            Rigth
+
+                Bottom
+
+*/
+* {
+    /* Hace que los bordes no cuenten hacia fuera, sino hacia dentro*/
+    box-sizing: border-box;
+}
+
+.cubos {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    border: 5px solid rgb(135, 228, 155);
+    margin: 10px;
+    /* display: inline; Esto sucede cuando se ponen en linea los elementos, se usa para texto  */
+    /* display: inline-block; Sierve para ser RESPONSIVE, el elemento ocupa solo lo que necesita
+    en la misma linea, en caso de dimensionar la pantalla se sobrepone abajo */
+    display: block;
+}
+
+.cubo1 {
+    background-color: rgb(184, 138, 227);
+}
+
+.cubo2 {
+    background-color: rgb(136, 227, 241);
+}
+
+.cubo3 {
+    background-color: rgb(96, 240, 151);
+}
+
+.cubo4 {
+    background-color: rgb(214, 79, 165);
+}
+
+.cubo5 {
+    background-color: rgb(242, 168, 58);
+}
+
+.cubo6 {
+    background-color: rgb(251, 52, 52);
+}

@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-family: "Poppins";
+}
+
+body {
+  position: relative;
+  z-index: 1;
+  margin-top: 40px;
+  height: 500px;
+}
+
+.shape-svg {
+  top: -275px;
+  position: absolute;
+  z-index: -1;
+  width: 100vw;
+}
+
+.header {
+  background-color: #5E90E3;
+  height: 40px;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header .icons {
+  margin-right: 100px;
+}
+
+.header i {
+  color: white;
+  font-size: 20px;
+  padding: 3px;
+  margin: 2px;
+}
+
+.menu img {
+  width: 125px;
+  height: 100px;
+
+}
+
+.menu {
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu a {
+  padding: 0 15px;
+  text-decoration: none;
+  color: #002B69;
+}
+
+.menu ul {
+  padding: 20px 100px;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  /* hace el contenido orientable en columas */
+  padding: 0px 20px 0 100px;
+}
+
+.leftText {
+  width: 60%;
+  padding-right: 200px;
+
+  h1 {
+    color: #002B69;
+    font-size: 50px;
+  }
+
+  p {
+    padding: 20px 60px 0 0;
+    font-size: 25px;
+    color: #494949;
+  }
+}
+
+.rigthImage {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+
+  img {
+    width: 700px;
+    height: 600px;
+    margin-right: 100px;
+    margin-top: -150px;
+  }
+}
+
+.lineaNegocio {
+  padding: 0 100px;
+
+
+  h1 {
+    color: #DE4C67;
+    font-weight: 100;
+    font-size: x-large;
+  }
+}
+
+.negocios {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 175px;
+}
+
+.negocio {
+  padding: 10px 50px 10px 50px;
+  height: 325px;
+  width: 275px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.negocio img {
+  margin-top: -30px;
+  height: 40%;
+}
+
+.negocio h2 {
+  margin: 0 -20px 0 -20px;
+  text-align: center;
+}
+
+.negocio p {
+  margin: 10px -10px 10px -10px;
+  text-align: center;
+}
+
+.clientes {
+  padding: 10px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+
+  h1 {
+    color: rgb(49, 49, 139);
+    font-weight: 100;
+    font-size: x-large;
+  }
+}
+
+.footer {
+  background-color: #DE4C67;
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}

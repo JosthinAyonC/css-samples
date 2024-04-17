@@ -1,0 +1,66 @@
+/* Box model
+
+UNIDADES DE MEDIDA EN CSS
+    -Unidades de medida absoluta (No varia)
+        * px pixeles
+        * in inches
+        * cm, mm
+    -Unidades de medida relativa (Tamaño según la pantalla)
+        * em (toma como base la medida de la fuente del navegador por defecto) 1em equivale a 16 px
+        * ex (la mitad 1/2 de la medida que utiliza el navegador por defecto) es decir em/2
+        * rem (Similar a em, solo que este se basa en el tamaño de la fuente del html) 1rem = 16px
+        * % porcentaje de la pantalla
+    -Unidades de medida flexibles (Vista completa según el navegador)
+        * vw (Viewport Width) 1vw = 1% del ancho de la pantalla
+        * vh (Viewport Height) 1vh = 1% del alto de la pantalla
+        * vmin (Viewport Minimum) 1vmin = 1% del ancho o alto, lo que sea menor
+        * vmax (Viewport Maximum) 1vmax = 1% del ancho o alto, lo que sea mayor
+*/
+
+/* .cubo-container {
+    font-size: 32px;
+}
+
+.cubo1 {
+    width: 64px;
+    height: 2em;
+    background-color: aqua;
+} */
+
+/* .cubo-container {
+    font-size: 32px;
+}
+
+.cubo1 {
+    width: 64px;
+    height: 4ex;
+    background-color: aqua;
+} */
+
+html {
+    font-size: 64px;
+}
+
+/* .cubo1 {
+    width: 256px;
+    height: 4rem;
+    background-color: aqua;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .cubo1 {
+    width: 50%;
+    height: 5rem;
+    background-color: aqua;
+} */
+
+.cubo1 {
+    width: 80vw;
+    height: 60vh;
+    background-color: rgba(115, 194, 194, 0.993);
+}

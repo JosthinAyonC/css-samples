@@ -1,0 +1,32 @@
+/* Selector universal especificidad = 6 */
+* {
+    background-color: black;
+    color: rgb(20, 79, 79);
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* Selector de etiqueta especificidad = 5 */
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+/* Selector de atributo especificidad = 4 */
+[fuego="a"] {
+    color: rgb(131, 245, 137);
+}
+
+/* Selector de clase especificidad = 3 */
+.tituloP {
+    color: rgb(181, 130, 229);
+}
+
+/* Selector por id especificidad = 2 */
+#etiquetah1 {
+    color: aquamarine;
+}

@@ -1,0 +1,33 @@
+/*
+    Background
+
+    color
+    image
+    position
+    attachment
+    repeat
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.headerImage {
+    width: 100vh;
+    height: 40vh;
+    background-image: url("/Sasf/assets/gdifare.svg");
+
+    /* La imagen ocupe toda la pantalla */
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /* Para dejar de background de fondo */
+    background-attachment: fixed;
+}
+
+.footerImage {
+    width: 100vh;
+    height: 60vh;
+    background-image: url("/Sasf/assets/footer.svg");
+}

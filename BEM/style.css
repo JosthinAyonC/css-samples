@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.noticia__titulo {
+    font-size: 100px;
+}
+
+.noticia__titulo--color {
+    color: rgb(166, 100, 227);
+}

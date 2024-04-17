@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.tittleContainer {
+    width: 100vw;
+    height: 10vh;
+    border: 2px solid black;
+}
+
+.parrafo-container {
+    width: 100vw;
+    height: 30vh;
+    border: 1px solid red;
+    /* Propiedad que no permite que el texto sobre salga del div */
+    /* overflow: hidden; */
+    /* Propiedad que permite hacer scrolls      */
+    overflow: auto;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: 'Segoe UI', 'Tahoma', 'Geneva', Verdana, sans-serif;
+    /* Grosor de las letras */
+    font-weight: 400;
+    /* line-height: 500px; Interlineado */
+    /* Orientacion de las letras dentro del div */
+    text-align: center;
+    /* Espaciado entre letras */
+    letter-spacing: 5px;
+    /* Permite que con el mouse podamos o no seleccionar texto */
+    user-select: none;
+}
+
+p {
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', 'Tahoma', 'Geneva', Verdana, sans-serif;
+}

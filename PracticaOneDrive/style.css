@@ -1,0 +1,395 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    text-decoration: none;
+    font-family: "Roboto";
+    background-color: #F1F0F4;
+}
+
+.header {
+    height: 5vh;
+    width: 100vw;
+    top: 0;
+    position: fixed;
+    display: flex;
+}
+
+.options {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.options h2 {
+    width: 75%;
+    color: rgb(74, 72, 72);
+    font-size: 1rem;
+    letter-spacing: .01rem;
+    font-weight: 450;
+    margin-left: 5%;
+
+}
+
+.options .puntosPadre {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(74, 72, 72);
+}
+
+.puntosPadre:hover {
+    background-color: #d6d6d8;
+    color: rgb(149, 149, 221);
+}
+
+.container-puntos {
+    width: 60%;
+    height: 60%;
+    background-color: transparent;
+}
+
+.puntosPadre p {
+    background-color: transparent;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 550;
+    line-height: 6px;
+}
+
+
+.search {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-group {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 1rem;
+    width: 30rem;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-group i {
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    text-align: center;
+    font-size: 20px;
+}
+
+.input-group .lupa {
+    width: 10%;
+}
+
+.input-group input {
+    width: 50%;
+    height: 100%;
+    border: 1px solid transparent;
+}
+
+.input-group input:focus {
+    outline: none;
+}
+
+.input-group p {
+    font-size: .8rem;
+    font-weight: 300;
+    text-align: end;
+    width: 35%;
+}
+
+.input-group .desc {
+    width: 5%;
+}
+
+.more-options {
+    width: 20%;
+    height: 100%;
+    display: flex;
+}
+
+.element {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.element:hover {
+    background-color: #d6d6d8;
+    color: rgb(149, 149, 221);
+}
+
+.element i {
+    background-color: transparent;
+    text-align: center;
+    font-size: 20px;
+}
+
+.element img {
+    left: 0;
+    height: 70%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+.body {
+    margin-top: 5vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.side-bar {
+    width: 3.5vw;
+    height: 100vh;
+    position: fixed;
+}
+
+.mas {
+    margin-top: 1vh;
+    width: 3.5vw;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-plus {
+    height: 4vh;
+    aspect-ratio: 1/1;
+    background-color: #3A46AB;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background-image: linear-gradient(to left, #3A46AB, #0F6CBD);
+}
+
+.button-plus i {
+    font-size: 1rem;
+    color: white;
+    background-color: transparent;
+    text-align: center;
+    line-height: 8vh;
+}
+
+.tools {
+    width: 3.5vw;
+    height: 24vh;
+}
+
+.more-tools {
+    width: 3.5vw;
+    height: 14vh;
+    margin-bottom: 2vh;
+}
+
+.courses {
+    width: 3.5vw;
+    height: 30vh;
+}
+
+.element {
+    width: 3.5vw;
+    height: 4vh;
+
+}
+
+.content {
+    padding: 0 6.5vh 0 10vh;
+    width: 100vw;
+    height: 100vh;
+}
+
+.for-you {
+    width: 100%;
+    height: 30%;
+    background-color: #3A46AB;
+}
+
+.for-you .header-fyp {
+    height: 20%;
+
+    h1 {
+        padding: 2vh 0;
+        font-size: 1.2rem;
+        font-weight: 450;
+    }
+}
+
+.for-you .galery {
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    padding: 1.5vh;
+    height: 22vh;
+    width: 22vw;
+    background-color: #ffffff;
+    border-radius: .8vw;
+    border: 1px solid rgba(0, 0, 0, 0.093);
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+}
+
+.card .tittle {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.093);
+
+    p {
+        width: 8%;
+        text-align: center;
+        font-size: 1rem;
+        justify-content: end;
+        background-color: transparent;
+    }
+
+    h3 {
+        width: 84%;
+        font-size: .8rem;
+        padding: .2vw 1vh;
+        background-color: transparent;
+    }
+
+    img {
+        width: 8%;
+        height: 25px;
+        background-color: transparent;
+    }
+}
+
+.card .detail {
+    margin-top: 1.5vh;
+    background-color: transparent;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+    .attachment {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        width: 40%;
+
+        img {
+            object-fit: cover;
+            height: 13vh;
+            border-radius: 5px;
+            aspect-ratio: 1/1;
+            background-color: transparent;
+        }
+    }
+}
+
+.card .item {
+    background-color: transparent;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.item .item-button {
+    width: 100%;
+    height: 45%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+
+    .button {
+        font-size: 1rem;
+        display: flex;
+        padding: 1rem 2rem;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+        height: 60%;
+        text-align: center;
+        border-radius: 5px;
+        border: 1px solid #9696964c;
+        background-color: transparent;
+    }
+
+    .button:hover {
+        background-color: #F0F0F0;
+    }
+}
+
+.item-icon {
+    background-color: transparent;
+
+    i {
+        padding: .5vh;
+        font-size: 12px;
+        color: #9BC1E2;
+        border-radius: 100px;
+        background-color: #EFF6FC;
+    }
+}
+
+.item-activity {
+    width: 100%;
+    height: 55%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+}
+
+.item-activity-detail {
+    padding-left: 10px;
+    background-color: transparent;
+
+    h4 {
+        font-weight: 300;
+        background-color: transparent;
+        font-size: 1rem;
+    }
+
+    p {
+        font-weight: 100;
+        background-color: transparent;
+        font-size: .8rem;
+    }
+}
+
+.recent {
+    width: 100%;
+    height: 8%;
+    background-color: #303dad;
+}
+
+.table-recent {
+    width: 100%;
+    height: 62%;
+    background-color: #3A46AB;
+}

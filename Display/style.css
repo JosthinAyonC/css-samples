@@ -1,0 +1,36 @@
+/*
+    DISPLAY
+
+    Block - 
+    Inline - Solo para tetos
+    Inline-block - para texto y elementos y responsive
+    None - No se muestra
+    Flex - Para alinear elementos en una caja flexible
+    Grid - Para alinear elementos en una caja de rejilla
+    Inline-flex - 
+    Inline-grid -
+
+*/
+
+h1 {
+    background-color: #00f;
+    /* El fondo ocupa lo mismo ue el texto, titulo */
+    display: inline;
+}
+
+.parrafos {
+    width: 40%;
+    margin: 20px;
+}
+
+/* Float es para poner diferentes elementos dentro de un div en diferentes orientaciones */
+
+.parrafo1 {
+    float: left;
+    /* Permite cambiar el cursor */
+    cursor: no-drop;
+}
+
+.parrafo2 {
+    float: right;
+}

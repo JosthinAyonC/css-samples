@@ -1,0 +1,65 @@
+/* Selector universal */
+* {
+    background-color: black;
+    color: rgb(20, 28, 28);
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* Selector de etiqueta */
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+/* Selector de atributo */
+[fuego="a"] {
+    color: rgb(131, 245, 137);
+}
+
+/* Selector de clase */
+.tituloP {
+    color: rgb(181, 130, 229);
+}
+
+/* Selector por id */
+#etiquetah1 {
+    color: aquamarine;
+}
+
+/* Pseudo clases : */
+.tituloP:hover {
+    /* Hover cambia el color del elemento al pasar el cursor por encima */
+    background-color: darkcyan;
+}
+
+/* Pseudo elementos :: */
+.tituloP::first-letter {
+    color: white;
+}
+
+.parrafo::first-line {
+    font-size: 60px;
+    color: aqua;
+}
+
+button {
+    background-color: rgb(131, 188, 209);
+}
+
+.after::before {
+    content: "Antes";
+}
+
+.after:hover {
+    color: white;
+}
+
+.after:hover.after::after {
+    content: " y Después";
+    color: white;
+}
