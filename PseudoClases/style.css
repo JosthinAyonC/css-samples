@@ -5,6 +5,17 @@ Son selectores que marcan un elemento que está en un estado específico.
 
 Se representan con ':'
 
+PSEUDO ELEMENTOS
+
+Son selectores que seleccionan una parte de un elemento.
+
+Se representan con '::'
+
+    ::after
+    ::before
+    ::first-letter
+    ::first-line
+    ::selection
 */
 
 
@@ -17,6 +28,7 @@ Se representan con ':'
 /* El raton sobre el div */
 .container:hover {
     background-color: #db6d6d;
+    cursor: pointer;
 }
 
 /* Click sobre el elemento */
@@ -53,4 +65,23 @@ a:link {
 /* Cuando un enlace es visitado */
 a:visited {
     color: rgb(124, 177, 112);
+}
+
+p {
+    font-size: 2em;
+}
+
+p::first-letter {
+    font-size: 4em;
+    color: #900999;
+}
+p::first-line {
+    color: #edb0ec;
+}
+
+/* Cuando seleccionamos un texto */
+p::selection{
+    background-color: #3f3940;
+    color: #edb0ec;
+    text-shadow: 2px 2px 2px #00ff00;
 }
