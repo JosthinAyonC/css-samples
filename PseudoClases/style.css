@@ -1,0 +1,56 @@
+/*
+PSEUDO CLASES   
+
+Son selectores que marcan un elemento que está en un estado específico.
+
+Se representan con ':'
+
+*/
+
+
+.container {
+    width: 20vh;
+    height: 20vh;
+    background-color: #900999;
+}
+
+/* El raton sobre el div */
+.container:hover {
+    background-color: #db6d6d;
+}
+
+/* Click sobre el elemento */
+.container:active {
+    background-color: #edb0ec;
+}
+
+input {
+    padding: 1em;
+    width: 50vw;
+    margin-top: 1em;
+    background-color: #00ff00;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+/* Cuando el elemento se encuentra seleccionado */
+input:focus {
+    background-color: #900999;
+    color: #edb0ec;
+    /* Quita el border de los input */
+    outline: none;
+}
+
+a {
+    font-size: 2em;
+    text-decoration: none;
+}
+
+a:link {
+    color: #9d38d3;
+}
+
+/* Cuando un enlace es visitado */
+a:visited {
+    color: rgb(124, 177, 112);
+}
