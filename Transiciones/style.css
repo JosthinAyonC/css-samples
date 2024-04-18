@@ -1,0 +1,26 @@
+.container {
+    width: 20vh;
+    height: 20vh;
+    background-color: #900999;
+    transition-property: background-color width;
+    transition-duration: .5s;
+    /* Cooldown para ue algo empiece a hacer la transicion */
+    /* transition-timing-function: linear; */
+    transition-delay: .1s;
+
+    /* transition: all .5s; */
+    /* Tambien podemos detallar las propiedades qque deseamos su transicion
+    transition: propiedadEnEspecifico .5s; */
+}
+
+/* El raton sobre el div */
+.container:hover {
+    width: 100px;
+    background-color: #db6d6d;
+    cursor: pointer;
+}
+
+/* Click sobre el elemento */
+.container:active {
+    background-color: #6ddc85;
+}
