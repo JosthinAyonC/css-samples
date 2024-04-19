@@ -1,0 +1,42 @@
+p {
+    font-size: 3em;
+}
+
+/* Contenedor */
+body::-webkit-scrollbar {
+    width: 5px;
+    background-color: rgb(188, 148, 148);
+}
+
+/* Deslizable */
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(216, 98, 98);
+}
+
+.container-lorem {
+    width: 50vh;
+    height: 50vw;
+    margin: 50vh 20vw;
+    padding: 1vh 2vw;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* No dejar que un elemento se salga de su elemento padre */
+    overflow: scroll;
+}
+
+.container-lorem::-webkit-scrollbar {
+    width: 10px;
+    height: 0px;
+    background-color: rgb(188, 148, 148);
+}
+
+.container-lorem::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+}
