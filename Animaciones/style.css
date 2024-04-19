@@ -1,0 +1,46 @@
+.container {
+    animation: Animacion-jayon 1.5s infinite alternate-reverse;
+    /* alternate-reverse sirve para que la animación se ejecute en un sentido y luego en el otro */
+    /* infinite reload animation */
+    /* animation-iteration-count: infinite; */
+}
+
+/* @keyframes Animacion-jayon {
+    0% {
+        width: 12rem;
+        height: 12rem;
+        background-color: rgb(133, 186, 186);
+    }
+    
+    50% {
+        width: 18rem;
+        height: 18rem;
+        background-color: #ae61b3;
+        margin-left: 24rem;
+        border-radius: 50px;
+    }
+    
+    100% {
+        width: 6rem;
+        height: 6rem;
+        background-color: #900999;
+        margin-left: 48rem;
+        border-radius: 100px;
+    }
+} */
+
+@keyframes Animacion-jayon {
+    from {
+        width: 6rem;
+        height: 6rem;
+        background-color: #900999;
+    }
+
+    to {
+        width: 18rem;
+        height: 18rem;
+        background-color: #ae61b3;
+        margin-left: 24rem;
+        border-radius: 50px;
+    }
+}
