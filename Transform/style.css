@@ -1,0 +1,45 @@
+/*
+    TRANSFORM
+
+    Permite realizar transformaciones 
+    visuales tanto en 2d como en 3d
+
+    2D
+    translate(x, y) -- traslada el elemento
+    scale(x, y) -- escala el elemento
+    rotate(angle) -- rota el elemento
+    skew(x, y) -- inclina el elemento
+    skewX(angle) -- inclina el elemento en x
+    skewY(angle) -- inclina el elemento en y
+
+
+    3D
+    translate3d(x, y, z) -- traslada el elemento
+    scale3d(x, y, z) -- escala el elemento
+    rotate3d(x, y, z, angle) -- rota el elemento
+    perspective(n) -- establece la perspectiva
+    matrix(n, n, n, n, n, n) -- combina todas las transformaciones
+    matrix3d(n, n, n, n, n, n, n, n, n, n, n, n, n, n, n, n) -- combina todas las transformaciones en 3d
+*/
+
+.container {
+    width: 10vw;
+    height: 10vw;
+    background-color: rgb(190, 173, 150);
+    margin: 100px;
+    /* transform: translate(100px, 100px); */
+    /* transform: rotate(2deg); */
+    /* transform: rotate(45deg) skew(20deg); */
+    /* transform: scale(2); */
+    /* transform: skew(20deg, 20deg); */
+    /* transform: skewX(20deg); */
+    /* transform: skewY(20deg); */
+    /* transform: translate3d(100px, 100px, 100px); */
+    /* transform: scale3d(2, 2, 2);   */
+    /* transform: rotate3d(1, 1, 1, 45deg); */
+    /* transform: perspective(1000px); */
+    /* transform: matrix(1, 0, 0, 1, 100, 100); */
+    /* transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 100, 100, 100, 1); */
+    /* transform: translate(100px, 100px) rotate(45deg) skew(20deg); */
+    /* transform: translate(100px, 100px) rotate(45deg) skew(20deg) scale(2); */
+}

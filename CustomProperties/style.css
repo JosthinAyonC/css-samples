@@ -1,0 +1,20 @@
+/* CSS CUstom properties (Variables en CSS)
+
+    Son un mecanismo de css ue nos permite dar un
+    valor personalizado a las propiedades.
+
+    Se añaden al inicio del documento.
+    Se representan iniciando con --.
+    Al usarlo se usa la propiedad 
+    var(nombre de la variable, valor por defecto)
+*/
+:root {
+    --nuestroFondo: #00ff00
+}
+
+.container {
+    width: 10vw;
+    height: 10vh;
+    background-color: var(--nuestroFondo, #00faa0);
+    margin: 10vh 10vw;
+}
